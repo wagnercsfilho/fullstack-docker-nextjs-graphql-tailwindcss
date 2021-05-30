@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "npm run seed && nodemon src/server.js",
+    "seed": "node src/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.4.1",
+    "apollo-server": "^2.24.1",
+    "apollo-server-cache-redis": "^1.5.0",
+    "apollo-server-plugin-response-cache": "^0.8.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.1",
+    "graphql": "^15.5.0",
+    "ioredis": "^4.27.3",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

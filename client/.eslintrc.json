@@ -1,0 +1,33 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "ignorePatterns": ["node_modules/*", ".next/*", ".out/*", "tailwind.config.js", "!.prettierrc.js"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "react/jsx-filename-extension": 0,
+        "react/react-in-jsx-scope": 0,
+        "react/prop-types": 0,
+        "react/button-has-type": 0,
+        "react/jsx-props-no-spreading": 0
+    }
+}
