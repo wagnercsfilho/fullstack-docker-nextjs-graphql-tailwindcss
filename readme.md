@@ -1,6 +1,6 @@
 ## Run
 ```
-dockercompose up
+docker-compose up
 ```
 
 Visit http://localhost:3000
